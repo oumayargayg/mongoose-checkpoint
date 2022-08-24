@@ -4,7 +4,7 @@ const mongoose=require('mongoose')
 const Person=require('./models/person')
 
 //connect to atlas database
-const dbURI="mongodb+srv://jihen123:jihen123@cluster0.ak80e.mongodb.net/mongo-tuts?retryWrites=true&w=majority"
+const dbURI="mongodb+srv://oumaya:ouma333@cluster3.vo2r8gw.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(dbURI,{useNewUrlParser: true , useUnifiedTopology: true }, { useFindAndModify: false })
 .then((response)=>{
     app.listen(3000,(err)=>{
